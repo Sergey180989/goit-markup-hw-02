@@ -79,7 +79,8 @@ main_sec1 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+letter-spacing: 0.02em
+  line-height: 1.5;
   color: #2e2f42;
 }
 
@@ -88,7 +89,8 @@ main_sec1 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  letter-spacing: 0.02em
+  line-height: 1.5;
   color: #434455;
 }
 
