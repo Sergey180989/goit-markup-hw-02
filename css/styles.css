@@ -52,13 +52,13 @@
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.17;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-.main_buttom: :hover {
+.main_buttom:hover {
   background-color: #404bbf;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -70,7 +70,7 @@
   color: #ffffff;
 }
 
-.main_buttom: :focus {
+.main_buttom:focus {
   background-color: #404bbf;
   font-family: "Roboto", sans-serif;
   font-style: normal;
