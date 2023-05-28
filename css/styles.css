@@ -3,6 +3,10 @@
   list-style: none;
 }
 
+:root {
+  --brand-color: #3f51b5;
+}
+
 .header_logo2 {
   font-family: "Raleway";
   font-style: normal;
@@ -79,7 +83,7 @@ main_sec1 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-letter-spacing: 0.02em
+  letter-spacing: 0.02em
   line-height: 1.5;
   color: #2e2f42;
 }
