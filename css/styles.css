@@ -1,5 +1,6 @@
-.nav_header {
+.list {
   background: #ffffff;
+  list-style: none
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -183,6 +184,8 @@ main_sec1 {
 
 .main_shrift {
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
 }
 
 .portfolio_item {
