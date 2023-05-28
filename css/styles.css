@@ -59,12 +59,12 @@
 }
 
 .main_buttom {
-  background-color: #404bbf;
-  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
