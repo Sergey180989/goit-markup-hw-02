@@ -58,19 +58,7 @@
   color: #ffffff;
 }
 
-.main_buttom:hover {
-  background-color: #404bbf;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.main_buttom:focus {
+.main_buttom {
   background-color: #404bbf;
   font-family: "Roboto", sans-serif;
   font-style: normal;
