@@ -212,6 +212,10 @@
   color: var(--modal-overlay);
 }
 
+.pic_color {
+  background-color: var(--main-color);
+}
+
 .team_item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
