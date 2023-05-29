@@ -1,7 +1,3 @@
-.list {
-  list-style: none;
-}
-
 :root {
   --main-color: #ffffff;
   --text-color: #434455;
@@ -158,7 +154,7 @@
   color: var(--main-color);
 }
 
-.main_sec1 {
+.main_sec_our {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -204,7 +200,7 @@
   background: var(--light);
 }
 
-.main_sec3 {
+.main_sec_team {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
