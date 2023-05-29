@@ -209,8 +209,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--modal-overlay);
 }
 
@@ -220,7 +222,9 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   color: var(--modal-overlay);
+  background-color: var(--main-color);
 }
 
 .team_text {
@@ -229,7 +233,9 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   color: var(--text-color);
+  background-color: var(--main-color);
 }
 
 .nav_footer {
