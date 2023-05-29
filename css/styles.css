@@ -22,7 +22,7 @@
 }
 
 .header_logo2 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -33,7 +33,7 @@
 }
 
 .header_logo1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -44,7 +44,7 @@
 }
 
 .nav_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -53,7 +53,7 @@
 }
 
 .nav_adress {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -66,7 +66,7 @@
 }
 
 .main_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -78,7 +78,7 @@
 
 .main_buttom {
   background-color: #4d5ae5;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -93,7 +93,7 @@ main_sec1 {
 }
 
 .our_item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +103,7 @@ main_sec1 {
 }
 
 .our_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -113,7 +113,7 @@ main_sec1 {
 }
 
 .main_sec2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -127,7 +127,7 @@ main_sec1 {
 }
 
 .main_sec3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -137,7 +137,7 @@ main_sec1 {
 }
 
 .team_item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -146,7 +146,7 @@ main_sec1 {
 }
 
 .team_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -159,7 +159,7 @@ main_sec1 {
 }
 
 .footer_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -168,7 +168,7 @@ main_sec1 {
 }
 
 .footer_logo1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -177,7 +177,7 @@ main_sec1 {
 }
 
 .footer_logo2 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -204,7 +204,7 @@ main_sec1 {
 }
 
 .portfolio_item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -213,7 +213,7 @@ main_sec1 {
 }
 
 .portfolio_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
