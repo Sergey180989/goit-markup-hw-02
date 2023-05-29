@@ -1,5 +1,5 @@
 .list {
-  background: #ffffff;
+  background: var(--main-color);
   list-style: none;
 }
 
@@ -10,7 +10,6 @@
   --pressed-state: #404BBF;
   --dark: #2E2F42;
   --success: #31D0AA;
-  --text: #434455;
   --subtle-text: #8E8F99;
   --accent: #E7E9FC;
   --light: #F4F4FD;
@@ -29,7 +28,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 
 .header_logo1 {
@@ -37,10 +36,10 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(modal-overlay);
 }
 
 .nav_text {
@@ -49,7 +48,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #2e2f42;
+  color: var(--hero-background);
 }
 
 .nav_adress {
@@ -58,11 +57,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .main {
-  background: #2e2f42;
+  background: var(--modal-background);
 }
 
 .main_text {
@@ -73,11 +72,11 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .main_buttom {
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -85,11 +84,11 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(main-color);
 }
 
 main_sec1 {
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .our_item {
@@ -99,7 +98,7 @@ main_sec1 {
   font-size: 20px;
   letter-spacing: 0.02em
   line-height: 1.5;
-  color: #2e2f42;
+  color: var (--main-color);
 }
 
 .our_text {
@@ -109,7 +108,7 @@ main_sec1 {
   font-size: 16px;
   letter-spacing: 0.02em
   line-height: 1.5;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .main_sec2 {
@@ -119,11 +118,11 @@ main_sec1 {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: #2e2f42;
+  color: var(--modal-overlay);
 }
 
 .team {
-  background: #f4f4fd;
+  background: var(light);
 }
 
 .main_sec3 {
@@ -133,7 +132,7 @@ main_sec1 {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: #2e2f42;
+  color: var(modal-overlay);
 }
 
 .team_item {
@@ -142,7 +141,7 @@ main_sec1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #2e2f42;
+  color: var(modal-overlay);
 }
 
 .team_text {
@@ -151,11 +150,11 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #434455;
+  color: var(text-color);
 }
 
 .nav_footer {
-  background: #2e2f42;
+  background: var(modal-overlay);
 }
 
 .footer_text {
@@ -164,7 +163,7 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f4fd;
+  color: var(light);
 }
 
 .footer_logo1 {
@@ -173,7 +172,7 @@ main_sec1 {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: #4d5ae5;
+  color: var(primary-brand);
 }
 
 .footer_logo2 {
@@ -182,11 +181,11 @@ main_sec1 {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: #f4f4fd;
+  color: var(light);
 }
 
 .portfolio_buttom {
-  background: #404bbf;
+  background: var(pressed-state);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -194,13 +193,13 @@ main_sec1 {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(main-color);
 }
 
 .main_shrift {
-  color: #434455;
+  color: var(text-color);
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(main-color);
 }
 
 .portfolio_item {
@@ -209,7 +208,7 @@ main_sec1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #2e2f42;
+  color: var(modal-overlay);
 }
 
 .portfolio_text {
@@ -218,5 +217,5 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #434455;
+  color: var(text-color);
 }
