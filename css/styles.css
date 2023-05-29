@@ -56,7 +56,27 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--dark);
+}
+
+.nav_text:focus {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pressed-state);
+}
+
+.nav_text:hover {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pressed-state);
 }
 
 .nav_adress {
@@ -65,7 +85,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--text-color);
+  color: var(--dark);
 }
 
 .main {
