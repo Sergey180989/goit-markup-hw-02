@@ -124,6 +124,18 @@
   color: var(--main-color);
 }
 
+.main_buttom {
+  background-color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--main-color);
+}
+
 .main_buttom:hover {
   background-color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
