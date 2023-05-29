@@ -89,6 +89,26 @@
   color: var(--text-color);
 }
 
+.nav_adress:hover {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pressed-state);
+}
+
+.nav_adress:focus {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pressed-state);
+}
+
 .main {
   background: var(--hero-background);
 }
