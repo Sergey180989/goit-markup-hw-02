@@ -13,6 +13,12 @@
   --modal-background: #fcfcfc;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+
 .link {
   text-decoration: none;
 }
@@ -23,7 +29,6 @@
 
 .logo-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -33,18 +38,10 @@
 }
 
 .logo-span {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--dark);
 }
 
 .nav_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -54,27 +51,14 @@
 }
 
 .nav_text:focus {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--pressed-state);
 }
 
 .nav_text:hover {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--pressed-state);
 }
 
 .nav_adress {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -84,22 +68,10 @@
 }
 
 .nav_adress:hover {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--pressed-state);
 }
 
 .nav_adress:focus {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--pressed-state);
 }
 
@@ -108,9 +80,7 @@
 }
 
 .main_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -132,30 +102,15 @@
 
 .main_buttom:hover {
   background-color: var(--pressed-state);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--main-color);
 }
 
 .main_buttom:focus {
   background-color: var(--pressed-state);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--main-color);
 }
 
 .main_sec_our {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -165,7 +120,6 @@
 }
 
 .our_item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -175,7 +129,6 @@
 }
 
 .our_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +138,6 @@
 }
 
 .main_sec_doing {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -201,7 +153,6 @@
 }
 
 .main_sec_team {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -217,7 +168,6 @@
 }
 
 .team_item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -228,9 +178,7 @@
 }
 
 .team_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -243,7 +191,6 @@
 }
 
 .footer_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,38 +223,15 @@
 
 .portfolio_buttom:hover {
   background-color: var(--pressed-state);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--main-color);
 }
 
 .portfolio_buttom:focus {
   background-color: var(--pressed-state);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--main-color);
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--text-color);
-  background-color: var(--main-color);
-}
-
 .portfolio_item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -317,7 +241,6 @@ body {
 }
 
 .portfolio_text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
