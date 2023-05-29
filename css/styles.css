@@ -3,20 +3,18 @@
 }
 
 :root {
-  --main-color: #ffffff;  
+  --main-color: #ffffff;
   --text-color: #434455;
-  --primary-brand: #4D5AE5;
-  --pressed-state: #404BBF;
-  --dark: #2E2F42;
-  --success: #31D0AA;
-  --subtle-text: #8E8F99;
-  --accent: #E7E9FC;
-  --light: #F4F4FD;
-  --modal-overlay: #2E2F42;
-  --hero-background: #2E2F42;
-  --modal-background: #FCFCFC;
-
-
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --modal-background: #fcfcfc;
 }
 
 .link {
@@ -167,7 +165,7 @@
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark);  
+  color: var(--dark);
 }
 
 .our_item {
@@ -176,8 +174,8 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
-  color: var (--main-color);
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 .our_text {
@@ -186,7 +184,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -245,7 +243,6 @@
   letter-spacing: 0.02em;
   color: var(--light);
 }
-
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
