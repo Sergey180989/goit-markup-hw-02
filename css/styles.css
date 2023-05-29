@@ -80,7 +80,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--main-color);
 }
 
 .nav_adress:hover {
@@ -262,7 +262,21 @@
 }
 
 .portfolio_buttom {
-  background: var(--pressed-state);
+  background-color: var(--light);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-brand);
+}
+
+.portfolio_buttom:hover {
+  background-color: var(--light);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -271,7 +285,19 @@
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--main-color);
-}
+
+.portfolio_buttom:focus {
+  background-color: var(--light);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--main-color);
+ }
 
 .main_shrift {
   color: var(--text-color);
