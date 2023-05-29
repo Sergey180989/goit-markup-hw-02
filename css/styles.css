@@ -20,7 +20,7 @@
 
 }
 
-.header_logo2 {
+.logo-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -31,7 +31,7 @@
   color: var(--primary-brand);
 }
 
-.header_logo1 {
+.logo-span {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -39,7 +39,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(modal-overlay);
+  color: var(--modal-overlay);
 }
 
 .nav_text {
@@ -61,7 +61,7 @@
 }
 
 .main {
-  background: var(--modal-background);
+  background: var(--hero-background);
 }
 
 .main_text {
@@ -75,7 +75,7 @@
   color: var(--main-color);
 }
 
-.main_buttom {
+.main_buttom:hover {
   background-color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -84,7 +84,19 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(main-color);
+  color: var(--main-color);
+}
+
+.main_buttom:focus {
+  background-color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--main-color);
 }
 
 main_sec1 {
@@ -122,7 +134,7 @@ main_sec1 {
 }
 
 .team {
-  background: var(light);
+  background: var(--light);
 }
 
 .main_sec3 {
@@ -132,7 +144,7 @@ main_sec1 {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: var(modal-overlay);
+  color: var(--modal-overlay);
 }
 
 .team_item {
@@ -141,7 +153,7 @@ main_sec1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: var(modal-overlay);
+  color: var(--modal-overlay);
 }
 
 .team_text {
@@ -150,11 +162,11 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(text-color);
+  color: var(--text-color);
 }
 
 .nav_footer {
-  background: var(modal-overlay);
+  background: var(--modal-overlay);
 }
 
 .footer_text {
@@ -163,29 +175,21 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(light);
+  color: var(--light);
 }
 
-.footer_logo1 {
+
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: var(primary-brand);
-}
-
-.footer_logo2 {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  color: var(light);
+  color: var(--light);
 }
 
 .portfolio_buttom {
-  background: var(pressed-state);
+  background: var(--pressed-state);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -193,13 +197,13 @@ main_sec1 {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(main-color);
+  color: var(--main-color);
 }
 
 .main_shrift {
   color: var(text-color);
   font-family: "Roboto", sans-serif;
-  background-color: var(main-color);
+  background-color: var(--main-color);
 }
 
 .portfolio_item {
@@ -208,7 +212,7 @@ main_sec1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: var(modal-overlay);
+  color: var(--modal-overlay);
 }
 
 .portfolio_text {
@@ -217,5 +221,5 @@ main_sec1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(text-color);
+  color: var(--text-color);
 }
