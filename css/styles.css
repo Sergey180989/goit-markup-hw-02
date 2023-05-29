@@ -1,5 +1,4 @@
 .list {
-  background: var(--main-color);
   list-style: none;
 }
 
@@ -20,7 +19,7 @@
 
 }
 
-link {
+.link {
     text-decoration: none;
 }
 
